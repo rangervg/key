@@ -1,0 +1,110 @@
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame1 = Instance.new("Frame")
+local Cliqueparacopiarolink = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local ConfirmKey = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local H2 = Instance.new("TextLabel")
+local Key = Instance.new("TextBox")
+local UIGradient_3 = Instance.new("UIGradient")
+local UICorner_3 = Instance.new("UICorner")
+
+
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.Name = "F"
+
+
+Frame1.Name = "Frame1"
+Frame1.Parent = ScreenGui
+Frame1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame1.Position = UDim2.new(0.558704436, 0, 0.168336675, 0)
+Frame1.Size = UDim2.new(0, 291, 0, 330)
+Frame1.Active = true
+Frame1.Draggable = true
+
+
+Cliqueparacopiarolink.Name = "Clique para copiar o link"
+Cliqueparacopiarolink.Parent = Frame1
+Cliqueparacopiarolink.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Cliqueparacopiarolink.Position = UDim2.new(0.222208023, 0, 0.736363649, 0)
+Cliqueparacopiarolink.Size = UDim2.new(0, 141, 0, 37)
+Cliqueparacopiarolink.Font = Enum.Font.PatrickHand
+Cliqueparacopiarolink.Text = "Clique para copiar o link"
+Cliqueparacopiarolink.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cliqueparacopiarolink.TextScaled = true
+Cliqueparacopiarolink.TextSize = 14.000
+Cliqueparacopiarolink.TextWrapped = true
+
+UICorner.Parent = Cliqueparacopiarolink
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(255, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = Cliqueparacopiarolink
+
+ConfirmKey.Name = "Confirm Key"
+ConfirmKey.Parent = Frame1
+ConfirmKey.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ConfirmKey.Position = UDim2.new(0.164948449, 0, 0.481818169, 0)
+ConfirmKey.Size = UDim2.new(0, 177, 0, 57)
+ConfirmKey.Font = Enum.Font.PatrickHand
+ConfirmKey.Text = "Confirm Key"
+ConfirmKey.TextColor3 = Color3.fromRGB(0, 0, 0)
+ConfirmKey.TextScaled = true
+ConfirmKey.TextSize = 14.000
+ConfirmKey.TextWrapped = true
+ConfirmKey.MouseButton1Click:Connect(function()
+	
+	if game.CoreGui.F.Frame1["Confirm Key"].Key.Text == "01asd32ufbw2079zzx" then
+		wait(0.5)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/rangervg/h/main/h"))()
+		wait(0.5)
+	game.CoreGui.F:Destroy()
+		
+end
+	
+end)
+
+UICorner_2.Parent = ConfirmKey
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_2.Parent = ConfirmKey
+
+H2.Name = "H2"
+H2.Parent = Frame1
+H2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+H2.BackgroundTransparency = 1.000
+H2.BorderColor3 = Color3.fromRGB(255, 0, 0)
+H2.BorderSizePixel = 0
+H2.Position = UDim2.new(0.0292894151, 0, 0, 0)
+H2.Size = UDim2.new(0, 273, 0, 64)
+H2.Font = Enum.Font.PatrickHand
+H2.Text = "H2"
+H2.TextColor3 = Color3.fromRGB(255, 0, 0)
+H2.TextScaled = true
+H2.TextSize = 14.000
+H2.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+H2.TextStrokeTransparency = 0.000
+H2.TextWrapped = true
+
+Key.Name = "Key"
+Key.Parent = ConfirmKey
+Key.BackgroundColor3 = Color3.fromRGB(0, 25, 255)
+Key.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Key.Position = UDim2.new(-0.068, 0,-1.137, 0)
+Key.Size = UDim2.new(0, 200, 0, 50)
+Key.Font = Enum.Font.AmaticSC
+Key.Text = ""
+Key.TextColor3 = Color3.fromRGB(255, 255, 255)
+Key.TextSize = 14.000
+Key.TextStrokeColor3 = Color3.fromRGB(170, 255, 0)
+Key.TextStrokeTransparency = 0.000
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_3.Parent = Frame1
+
+UICorner_3.Parent = Frame1
