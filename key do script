@@ -61,7 +61,7 @@ ConfirmKey.MouseButton1Click:Connect(function()
 	
 	if game.CoreGui.F.Frame1["Confirm Key"].Key.Text == "01asd32ufbw2079zzx" then
 		wait(0.5)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/rangervg/h/main/h"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/rangervg/H-DOIS/main/H%20DOIS"))()
 		wait(0.5)
 	game.CoreGui.F:Destroy()
 		
